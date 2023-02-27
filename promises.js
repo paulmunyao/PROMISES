@@ -19,27 +19,27 @@ catch(function(){
     console.log ("Failed")
 })
 
-// var promise = new Promise(function(resolve,reject){
-//     resolve("Paul")
-// });
+var promise = new Promise(function(resolve,reject){
+    resolve("Paul")
+});
 
-// promise.
-// then(function(successMessage){
-//     console.log(successMessage);
-// },function(errorMessage){
-//     console.log(errorMessage);
-// })
+promise.
+then(function(successMessage){
+    console.log(successMessage);
+},function(errorMessage){
+    console.log(errorMessage);
+})
 
-// var promise = new Promise(function(resolve,reject){
-//     reject("Rejected")
-// });
+var promise = new Promise(function(resolve,reject){
+    reject("Rejected")
+});
 
-// promise.
-// then(function(successMessage){
-//     console.log(successMessage);
-// },function(errorMessage){
-//     console.log(errorMessage);
-// })
+promise.
+then(function(successMessage){
+    console.log(successMessage);
+},function(errorMessage){
+    console.log(errorMessage);
+})
 
 // "https://fakestoreapi.com/products" - API endpoint
 
