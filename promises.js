@@ -1,23 +1,23 @@
 // import fetch from "node-fetch";
 
 
-// var promise = new Promise(function(resolve,reject){
-//     const x ="Paul";
-//     const y ="Paul"
-//     if (x === y){
-//         resolve();
-//     }else{
-//         reject()
-//     }
-// });
+var promise = new Promise(function(resolve,reject){
+    const x ="Paul";
+    const y ="Paul"
+    if (x === y){
+        resolve();
+    }else{
+        reject()
+    }
+});
 
-// promise.
-// then(function(){
-//     console.log("Successful");
-// }).
-// catch(function(){
-//     console.log ("Failed")
-// })
+promise.
+then(function(){
+    console.log("Successful");
+}).
+catch(function(){
+    console.log ("Failed")
+})
 
 // var promise = new Promise(function(resolve,reject){
 //     resolve("Paul")
