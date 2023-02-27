@@ -45,14 +45,14 @@ then(function(successMessage){
 
 
 // import fetch from "node-fetch"
-// fetch('https://example.com/data.txt')
-//   .then(response => response.text())
-//   .then(data => {
-//     console.log(data);
-//   })
-//   .catch(error => {
-//     console.error('Error fetching data:', error);
-//   });
+fetch('https://example.com/data.txt')
+  .then(response => response.text())
+  .then(data => {
+    console.log(data);
+  })
+  .catch(error => {
+    console.error('Error fetching data:', error);
+  });
 
 
 
